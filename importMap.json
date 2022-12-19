@@ -5,10 +5,10 @@
     "react-dom": "https://esm.sh/react-dom@18.2.0",
     "react-dom/server": "https://esm.sh/react-dom@18.2.0/server?dev",
     "react-dom/client": "https://esm.sh/react-dom@18.2.0/client?dev",
-
     "wouter": "https://esm.sh/wouter?external=react",
     "wouter/static-location": "https://esm.sh/wouter/static-location?external=react",
-
-    "ultra/": "https://deno.land/x/ultra@v2.1.7/"
+    "ultra/": "https://deno.land/x/ultra@v2.1.7/",
+    "@syncfusion/ej2-react-base": "https://esm.sh/@syncfusion/ej2-react-base@20.3.56",
+    "@syncfusion/ej2-buttons": "https://esm.sh/@syncfusion/ej2-buttons@20.3.58"
   }
 }

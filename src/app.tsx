@@ -1,4 +1,5 @@
 import useAsset from "ultra/hooks/use-asset.js";
+import { ButtonComponent } from "../libs/ej2/button/button.tsx";
 
 export default function App() {
   console.log("Hello world!");
@@ -10,6 +11,10 @@ export default function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href={useAsset("/favicon.ico")} />
         <link rel="stylesheet" href={useAsset("/style.css")} />
+        <link
+          rel="stylesheet"
+          href="https://cdn.syncfusion.com/ej2/20.3.56/material.css"
+        />
       </head>
       <body>
         <main>
@@ -21,6 +26,7 @@ export default function App() {
             <strong>Ultra</strong>. This is a barebones starter for your web
             app.
           </p>
+          <ButtonComponent>hello</ButtonComponent>
           <p>
             Take{" "}
             <a
